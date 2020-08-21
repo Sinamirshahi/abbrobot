@@ -5,8 +5,8 @@ import imutils
 import time
 import cv2
 
-prototxt_path = "deploy.prototxt"
-model_path = "res10_300x300_ssd_iter_140000.caffemodel"
+prototxt_path = "libs/deploy.prototxt"
+model_path = "libs/res10_300x300_ssd_iter_140000.caffemodel"
 confidence_level = 0.4
 simile = False
 
