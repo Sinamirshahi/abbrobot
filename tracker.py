@@ -4,9 +4,14 @@ import numpy as np
 import imutils
 import time
 import cv2
+import os
 
-prototxt_path = "libs/deploy.prototxt"
-model_path = "libs/res10_300x300_ssd_iter_140000.caffemodel"
+
+cwd =os.getcwd() #getting curent woeking directory
+lib = os.path.join(cwd,"libs")
+
+prototxt_path = os.path.join(cwd,"libs","deploy.prototxt")
+model_path = os.path.join(cwd,"libs","res10_300x300_ssd_iter_140000.caffemodel")
 confidence_level = 0.4
 simile = False
 
