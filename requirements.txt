@@ -1,5 +1,5 @@
 numpy
 imutils
 opencv-python
-
+scipy
 
