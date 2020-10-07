@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from face_tracker_libs.cot import CentroidTracker
+from libs.cot import CentroidTracker
 from imutils.video import VideoStream
 import numpy as np
 import imutils
